@@ -5,4 +5,5 @@
 
 hard  
 
-
+this package provide hard variable implementation
+which they are dumped when set and loaded when they get

@@ -5,10 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hard",
-    version="0.0.1",
+    version="0.0.2",
     author="Erdem Aybek",
     author_email="eaybek@gmail.com",
-    description=" ".join([""]),
+    description=" ".join(
+        ["hard variables: they dumping when the set time"]
+    ),
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/eaybek/hard",

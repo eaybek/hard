@@ -1,5 +1,11 @@
+# from file a
 from hard.hard import Hard
 
+hard = Hard()
+hard.sum = 5
 
-class Hard(object):
-    pass
+# from file b
+from hard.hard import Hard
+
+hard = Hard()
+print(hard.sum)
